@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio Juillerat Jonathan" />
+    <meta
+      name="keywords"
+      content="HTML, CSS, JavaScript, Portfolio, developer web, web mobile"
+    />
+    <meta name="author" content="Jonathan Juillerat" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="logo.svg" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <title>Juillerat Jonathan</title>
+  </head>
+  <body>
+    <div id="load"></div>
+    <div id="overlay">
+      <img src="./logo.svg" alt="logo" />
+    </div>
+
+    <main>
+      <a id="top"></a>
+      <!-- Navigation bar Desktop -->
+
+      <nav class="conteneur_nav">
+        <ul class="ul_desk">
+          <li>
+            <a href="./index.html">HOME</a>
+          </li>
+          <li>
+            <a href="./mywork.html">WORK</a>
+          </li>
+          <li>
+            <a id="logoid" href="./index.html"
+              ><img id="logo_j_nav" src="./logo.svg" alt="logo J"
+            /></a>
+          </li>
+          <li>
+            <a href="./aboutme.html">ABOUT</a>
+          </li>
+          <li>
+            <a href="./index.html#contact">CONTACT</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Navigation bar toggle burger menu  -->
+      <div class="sticky_burger">
+        <div class="screen">
+          <div class="parent_buns">
+            <a class="target-burger">
+              <ul class="buns">
+                <li class="bun"></li>
+                <li class="bun"></li>
+              </ul>
+            </a>
+          </div>
+
+          <nav class="main-nav">
+            <ul>
+              <li>
+                <a href="./index.html"><span>Home</span></a>
+              </li>
+              <li>
+                <a href="./mywork.html"><span>Work</span></a>
+              </li>
+              <li>
+                <a href="./aboutme.html"><span>About</span></a>
+              </li>
+              <li>
+                <a href="./index.html#contact"><span>Contact</span></a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <!-- Section my work -->
+
+      <h2 data-aos="zoom-in" data-aos-duration="1500" class="h2_mywork">
+        MY WORK
+      </h2>
+
+      <div data-aos="zoom-in" data-aos-duration="2000" class="parent_project">
+        <a
+          class="pic1"
+          href="https://jonathanj.promo-66.codeur.online/projet_data/"
+          target="_blank"
+          ><img
+            class="project_size image 1"
+            src="./images/data1.png"
+            alt="projet data image 1"
+        /></a>
+        <a
+          class="pic2"
+          href="https://jonathanj.promo-66.codeur.online/projet_data/"
+          target="_blank"
+          ><img
+            class="project_size2"
+            src="./images/data2.png"
+            alt="projet data image 2"
+        /></a>
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="2000" class="parent_arrow">
+        <a href="./mywork2.html"
+          ><img
+            class="arrow_left"
+            src="./images/arrowleft.png"
+            alt="previous project" /></a
+        ><a href="./mywork2.html"
+          ><img
+            class="arrow_right"
+            src="./images/arrowright.png"
+            alt="next project"
+        /></a>
+      </div>
+
+      <!-- Description de mes projets (texte) -->
+
+      <div class="parent_description">
+        <p data-aos="fade-up" data-aos-duration="2000" class="project_name">
+          <strong>DATA PROJECT</strong> <br /><br />
+          The goal was to introduce to create a multi-page site using public
+          data
+        </p>
+        <div class="precisions">
+          <p data-aos="fade-up" data-aos-duration="2000" class="p_type">
+            <strong>PROJECT TYPE</strong> <br /><br />
+            Group<br /><br />
+          </p>
+
+          <p data-aos="fade-up" data-aos-duration="2000" class="w_role">
+            <br />
+            <strong>ROLE</strong> <br /><br />
+            Website
+          </p>
+        </div>
+        <div class="precisions2">
+          <p data-aos="fade-up" data-aos-duration="2000" class="p_tools">
+            <strong>TOOLS USED</strong> <br /><br />
+            Html Css Figma PHP JS <br /><br />
+          </p>
+          <p data-aos="fade-up" data-aos-duration="2000" class="p_year">
+            <br />
+            <strong>YEAR</strong> <br /><br />
+            2021
+          </p>
+        </div>
+      </div>
+      <div class="line_parent">
+        <img class="line" src="./images/image.png" alt="line separation" />
+      </div>
+    </main>
+
+    <!-- Pied de page -->
+
+    <div class="parent_top">
+      <a class="top" href="#top"
+        ><p data-aos="fade-up" data-aos-duration="2000" class="totop">
+          TO TOP
+        </p></a
+      >
+    </div>
+    <div class="logo_parent">
+      <a rel="noopener" href="https://github.com/John03021992" target="_blank"
+        ><img
+          class="git"
+          src="./images/git.png"
+          alt="github logo"
+          style="width: 2.5rem"
+      /></a>
+      <a
+        rel="noopener"
+        href="https://www.linkedin.com/in/jonathan-juillerat-692705210/"
+        target="_blank"
+        ><img
+          class="linkedin"
+          src="./images/linkedin.png"
+          alt="logo linkedin"
+          style="width: 2.5rem"
+      /></a>
+    </div>
+    <footer>
+      <p class="rights">©2021 Juillerat Jonathan. All Rights Reserved</p>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-2.2.4.min.js"
+      integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="./script2.js"></script>
+    <script src="./script3.js"></script>
+    <script src="./script4.js"></script>
+    <script src="./script5.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"
+      integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- <script>
+      // Musique
+
+      var sound = new Howl({
+        src: [""],
+      });
+
+      sound.play();
+    </script> -->
+  </body>
+</html>
